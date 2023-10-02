@@ -10097,6 +10097,9 @@ Gold Plating, Positive Lock, 2 Circuits, Black  </description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="CAN" width="0.1524" drill="0">
+<clearance class="1" value="0.2286"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="circuitects" deviceset="ADS1220" device="" override_package3d_urn="urn:adsk.eagle:package:39853387/2" override_package_urn="urn:adsk.eagle:footprint:39853388/1"/>
@@ -11072,7 +11075,7 @@ Gold Plating, Positive Lock, 2 Circuits, Black  </description>
 <label x="205.74" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_P" class="0">
+<net name="CAN_P" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="CANH"/>
 <wire x1="172.72" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
@@ -11089,7 +11092,7 @@ Gold Plating, Positive Lock, 2 Circuits, Black  </description>
 <junction x="208.28" y="86.36"/>
 </segment>
 </net>
-<net name="CAN_N" class="0">
+<net name="CAN_N" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="CANL"/>
 <wire x1="172.72" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
@@ -11240,14 +11243,14 @@ Gold Plating, Positive Lock, 2 Circuits, Black  </description>
 <label x="195.58" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_P" class="0">
+<net name="CAN_P" class="1">
 <segment>
 <pinref part="J2" gate="A" pin="1"/>
 <wire x1="200.66" y1="175.26" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
 <label x="198.12" y="175.26" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_N" class="0">
+<net name="CAN_N" class="1">
 <segment>
 <pinref part="J2" gate="A" pin="2"/>
 <wire x1="200.66" y1="172.72" x2="198.12" y2="172.72" width="0.1524" layer="91"/>
