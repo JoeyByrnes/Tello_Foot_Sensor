@@ -1,5 +1,5 @@
 # Tello Foot Sensor
-Design Files for an Ankle Encoder + Loadcell Amplifier Combo PCB for Tello Bipedal Robot
+Design Files and Firmware for an Ankle Encoder + Loadcell Amplifier Combo PCB for Tello Bipedal Robot
 
 - STM32G4 Collects sensor data and streams over CAN-FD
 - Position and velocity of the AS5147U encoder is read and streamed at 1KHz
